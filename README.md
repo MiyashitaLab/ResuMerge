@@ -1,6 +1,4 @@
-# ResuMerge
-
-![ResuMerge](./assets/resumerge.png)
+# ![ResuMerge](./assets/resumerge.png)
 
 > 宮下研究室発表会用レジュメ結合ツール
 
