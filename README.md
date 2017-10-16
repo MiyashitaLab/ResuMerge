@@ -14,20 +14,20 @@
 ## How to use
 
 1. Google Forms で投稿フォームを作ります
-  - 次の項目が必要です
-    - 論文タイトル
-    - 筆頭著者名
-    - 学年（e.g. B4, M2）
-    - 論文ファイル
-  - 論文ファイルはアップロード機能を使います
-    - Ref. https://gsuiteupdates-ja.googleblog.com/2017/07/google.html
+    - 次の項目が必要です
+      - 論文タイトル
+      - 筆頭著者名
+      - 学年（e.g. B4, M2）
+      - 論文ファイル
+    - 論文ファイルはアップロード機能を使います
+      - Ref. https://gsuiteupdates-ja.googleblog.com/2017/07/google.html
 2. Google Forms の回答を CSV にエクスポートします
-  - Ref. https://support.google.com/docs/answer/139706?hl=ja
+    - Ref. https://support.google.com/docs/answer/139706?hl=ja
 3. ファイルがアップロードされているフォルダを共有します
-  - 「リンクを知っている全員」にします
+    - 「リンクを知っている全員」にします
 4. ResuMerge を起動します
-  - ダウンロードは[こちらから](./releases)
-  - 手順に沿って項目を入力します
+    - ダウンロードは[こちらから](./releases)
+    - 手順に沿って項目を入力します
 
 ## For developers
 
