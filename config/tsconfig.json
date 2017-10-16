@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["es2015", "dom"],
+    // "allowJs": true,
+    // "checkJs": true,
+    "jsx": "react",
+    "declaration": false,
+    // "sourceMap": true,
+    // "outFile": "./",
+    "removeComments": true,
+    // "noEmit": true,
+    // "importHelpers": true,
+    // "downlevelIteration": true,
+    // "isolatedModules": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "moduleResolution": "node",
+    // "baseUrl": "./",
+    // "paths": {},
+    // "rootDirs": [],
+    // "typeRoots": [],
+    "types": ["node", "webpack-env"],
+    "allowSyntheticDefaultImports": true,
+    // "preserveSymlinks": true,
+
+    // "sourceRoot": "./",
+    // "mapRoot": "./",
+    // "inlineSourceMap": true,
+    // "inlineSources": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["../server/src", "../client/src/scripts", "../types"]
+}
