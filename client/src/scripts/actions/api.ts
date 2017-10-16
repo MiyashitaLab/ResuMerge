@@ -1,5 +1,7 @@
 import { Dispatch } from 'redux';
 import axios from 'axios';
+import * as moment from 'moment';
+import 'moment/locale/ja';
 import { RootState } from '../reduces';
 import { actions as errorsActions } from './errors';
 import { actions as phaseActions } from './phase';
@@ -44,7 +46,7 @@ interface EventInfo {
 }
 
 interface ResumeInfoRaw {
-  timestamp: string;
+  timestamp: number;
   title: string;
   author: string;
   grade: string;
@@ -63,6 +65,9 @@ function generatePDF() {
         const mapped: any = {};
         Object.keys(headerBind).forEach(key => {
           mapped[key] = info[headerBind[key]!];
+          if (key === 'timestamp') {
+            mapped[key] = moment(mapped[key], 'YYYY/MM/DD hh:mm:ss a GMTZ', 'ja').valueOf();
+          }
         });
         return mapped as ResumeInfoRaw;
       });

@@ -31,19 +31,14 @@ interface EventInfo {
 }
 
 interface ResumeInfoRaw {
-  timestamp: string;
+  timestamp: number;
   title: string;
   author: string;
   grade: string;
   pdfUrl: string;
 }
 
-interface ResumeInfo {
-  timestamp: Date;
-  title: string;
-  author: string;
-  grade: string;
-  pdfUrl: string;
+interface ResumeInfo extends ResumeInfoRaw {
   startPage: number;
   hash: string;
   insertEmpty: boolean;
@@ -211,7 +206,6 @@ export default async function generatePDF(opts: GeneratePDFOptions, tmpDir: stri
       ...info,
       insertEmpty: false,
       startPage: -1,
-      timestamp: new Date(info.timestamp),
       hash: crypto
         .createHash('sha1')
         .update(JSON.stringify(info))
