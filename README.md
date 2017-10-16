@@ -26,7 +26,7 @@
 3. ファイルがアップロードされているフォルダを共有します
     - 「リンクを知っている全員」にします
 4. ResuMerge を起動します
-    - ダウンロードは[こちらから](./releases)
+    - ダウンロードは[こちらから](https://github.com/MiyashitaLab/ResuMerge/releases)
     - 手順に沿って項目を入力します
 
 ## For developers
