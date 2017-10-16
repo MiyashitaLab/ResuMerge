@@ -34,7 +34,7 @@
 1. Fork this repository
 2. Clone and run `yarn`
 3. When developing, run `yarn run watch`
-  - Then, access to `http://localhost:9000`
+    - Then, access to `http://localhost:9000`
 4. When building releases, run `yarn run build`
 
 ## License
