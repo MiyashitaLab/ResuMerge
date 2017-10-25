@@ -11,10 +11,10 @@ import { spawn } from 'child_process';
 
 const printer = new PDFMake({
   Roboto: {
-    normal: path.resolve(__dirname, '../../../fonts/SourceHanSerifJP-Regular.ttf'),
-    bold: path.resolve(__dirname, '../../../fonts/SourceHanSerifJP-Bold.ttf'),
-    italics: path.resolve(__dirname, '../../../fonts/SourceHanSerifJP-Regular.ttf'),
-    bolditalics: path.resolve(__dirname, '../../../fonts/SourceHanSerifJP-Bold.ttf'),
+    normal: path.resolve(__dirname, '../../../fonts/SauceHanSerifJP-Regular.ttf'),
+    bold: path.resolve(__dirname, '../../../fonts/SauceHanSerifJP-Bold.ttf'),
+    italics: path.resolve(__dirname, '../../../fonts/SauceHanSerifJP-Regular.ttf'),
+    bolditalics: path.resolve(__dirname, '../../../fonts/SauceHanSerifJP-Bold.ttf'),
   },
 });
 
