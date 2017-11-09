@@ -12,9 +12,9 @@ import { spawn } from 'child_process';
 const printer = new PDFMake({
   Roboto: {
     normal: path.resolve(__dirname, '../../../fonts/SauceHanSerifJP-Regular.ttf'),
-    bold: path.resolve(__dirname, '../../../fonts/SauceHanSerifJP-Bold.ttf'),
+    bold: path.resolve(__dirname, '../../../fonts/SauceHanSerifJP-Heavy.ttf'),
     italics: path.resolve(__dirname, '../../../fonts/SauceHanSerifJP-Regular.ttf'),
-    bolditalics: path.resolve(__dirname, '../../../fonts/SauceHanSerifJP-Bold.ttf'),
+    bolditalics: path.resolve(__dirname, '../../../fonts/SauceHanSerifJP-Heavy.ttf'),
   },
 });
 
